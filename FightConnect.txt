@@ -1,0 +1,265 @@
+﻿FightConnect
+Conectando atletas, professores e academias de artes marciais
+1. A ideia
+O FightConnect é um aplicativo voltado para praticantes e profissionais de artes marciais e esportes de combate, como:
+* Jiu-Jitsu
+* Muay Thai
+* MMA
+* Karatê
+* Judô
+* Boxe
+* Kickboxing
+* Taekwondo
+* Entre outras modalidades
+A proposta é criar uma plataforma onde professores, atletas e academias possam se conectar, facilitando a descoberta de profissionais, a divulgação de aulas e a organização de treinos.
+________________
+
+
+2. O problema
+Atualmente, muitos professores de artes marciais dependem principalmente de:
+* Instagram;
+* indicação de alunos;
+* grupos de WhatsApp;
+* divulgação boca a boca.
+Isso pode ser um problema para profissionais que são bons professores, mas possuem pouca presença nas redes sociais.
+Ao mesmo tempo, uma pessoa que deseja começar uma modalidade muitas vezes não sabe:
+* Onde encontrar um professor próximo;
+* Qual é a experiência daquele profissional;
+* Qual é a graduação dele;
+* Se ele dá aulas particulares;
+* Se atende em domicílio;
+* Onde ficam seus treinos;
+* Como entrar em contato.
+Outro problema é a dificuldade de encontrar oportunidades para treinar aos finais de semana, quando muitas academias não funcionam normalmente.
+________________
+
+
+3. Nossa solução
+O FightConnect funcionaria como uma espécie de ponto de encontro digital para a comunidade das artes marciais.
+O usuário poderia procurar professores, academias, atletas e treinos próximos a ele.
+A plataforma teria dois grandes objetivos:
+1. Conectar alunos e professores.
+2. Conectar atletas e academias para a realização de treinos.
+________________
+
+
+4. Perfil do professor
+Cada professor poderia criar um perfil profissional contendo informações como:
+* Nome;
+* Foto;
+* Modalidade;
+* Graduação/faixa;
+* Tempo de prática;
+* Tempo como professor;
+* Local onde dá aulas;
+* Dias e horários;
+* Valor das aulas;
+* Aula particular ou em grupo;
+* Atendimento em domicílio;
+* Área de atendimento;
+* Descrição da experiência;
+* Forma de contato.
+Exemplo
+João Silva
+🥋 Jiu-Jitsu
+Faixa: Preta
+Tempo de prática: 15 anos
+Experiência como professor: 7 anos
+Local: Academia X — São Paulo
+Aulas particulares: Sim
+Atendimento em domicílio: Sim
+Contato: Chat pelo aplicativo
+Dessa forma, uma pessoa que está procurando um professor poderia encontrar profissionais de acordo com suas necessidades.
+________________
+
+
+5. Busca de professores
+O usuário poderia utilizar filtros para encontrar o professor ideal.
+Por exemplo:
+Modalidade: Muay Thai
+Localização: até 10 km
+Tipo de aula: Particular
+Atendimento: Academia ou domicílio
+Disponibilidade: Final de semana
+Assim, o aplicativo mostraria os profissionais disponíveis de acordo com os filtros selecionados.
+________________
+
+
+6. Área de treinos
+Outra função importante seria a criação de treinos abertos para atletas.
+Um usuário poderia criar um treino informando:
+* Modalidade;
+* Data;
+* Horário;
+* Local;
+* Número máximo de participantes;
+* Nível dos atletas;
+* Valor, caso exista;
+* Observações.
+Exemplo
+Treino aberto — Jiu-Jitsu
+📅 Sábado
+⏰ 10:00
+📍 Academia X
+🥋 Nível: Todos
+👥 Vagas: 20 atletas
+💰 Valor: R$ 20
+Os interessados poderiam entrar no treino pelo aplicativo.
+________________
+
+
+7. Parceria com academias
+O FightConnect também poderia permitir que academias disponibilizassem horários para treinos especiais.
+Por exemplo:
+Uma academia normalmente fecha aos domingos.
+Um grupo de atletas pode organizar um treino pelo aplicativo e reservar aquele horário com a academia.
+A academia ganha uma nova oportunidade de receber atletas, enquanto os praticantes conseguem um local para treinar.
+Isso cria um modelo de benefício para os dois lados.
+________________
+
+
+8. Mapa
+O aplicativo poderia possuir um mapa mostrando:
+📍 Professores
+📍 Academias
+📍 Treinos disponíveis
+📍 Eventos
+O usuário poderia visualizar as opções próximas e acessar o perfil de cada profissional ou local.
+________________
+
+
+9. Sistema de avaliação
+Depois de uma aula ou treino, os usuários poderiam avaliar a experiência.
+Por exemplo:
+⭐ Qualidade da aula
+⭐ Pontualidade
+⭐ Estrutura
+⭐ Comunicação
+⭐ Experiência geral
+Também seria possível deixar um comentário.
+O objetivo seria criar uma comunidade com maior transparência e confiança entre os usuários.
+________________
+
+
+10. Diferencial do aplicativo
+O diferencial do FightConnect seria não ser apenas uma rede social.
+Ele seria uma plataforma focada em conexão e oportunidades dentro das artes marciais.
+Enquanto uma rede social depende da divulgação do profissional, o FightConnect permitiria que um aluno encontrasse o professor mesmo que ele tenha poucos seguidores.
+Além disso, o aplicativo resolveria uma necessidade específica da comunidade: encontrar e organizar treinos fora dos horários tradicionais das academias.
+________________
+
+
+11. Público-alvo
+O aplicativo seria destinado principalmente a:
+Professores
+Profissionais que desejam divulgar seu trabalho e conseguir novos alunos.
+Atletas
+Pessoas que treinam artes marciais e procuram novos parceiros e oportunidades de treino.
+Iniciantes
+Pessoas que querem começar uma modalidade, mas não sabem onde ou com quem treinar.
+Academias
+Estabelecimentos que desejam divulgar seus espaços e disponibilizar horários para treinos e eventos.
+________________
+
+
+12. Como o aplicativo poderia gerar receita?
+O projeto poderia utilizar diferentes modelos de monetização.
+Plano gratuito
+O professor poderia criar um perfil básico gratuitamente.
+Plano profissional
+Por meio de uma assinatura, o professor poderia ter:
+* Maior destaque nas buscas;
+* Mais fotos e vídeos;
+* Estatísticas de visualização;
+* Divulgação de eventos;
+* Recursos adicionais de contato.
+Academias
+Academias poderiam contratar um plano para:
+* Divulgar a academia;
+* Criar eventos;
+* Disponibilizar horários;
+* Receber reservas de treinos.
+Também seria possível futuramente trabalhar com publicidade relacionada ao universo esportivo.
+________________
+
+
+13. Segurança e confiabilidade
+Como o aplicativo envolveria contato entre pessoas, seria importante pensar em segurança.
+Algumas funcionalidades poderiam ser:
+* Verificação de identidade;
+* Verificação de perfil profissional;
+* Denúncia de usuários;
+* Sistema de avaliações;
+* Bloqueio de usuários;
+* Regras de utilização;
+* Identificação de professores e academias verificados.
+Para professores, também poderia existir um processo de verificação de graduação, quando houver documentação ou confirmação pela academia/federação correspondente.
+________________
+
+
+14. Exemplo de utilização
+Imagine uma pessoa chamada Pedro.
+Pedro quer começar a treinar Muay Thai, mas não conhece nenhum professor.
+Ele abre o FightConnect e informa:
+Modalidade: Muay Thai
+Localização: sua região
+Tipo: Aula particular
+O aplicativo apresenta professores próximos.
+Pedro entra no perfil de um professor, verifica sua experiência, graduação, localização, avaliações e disponibilidade.
+Depois, pode iniciar uma conversa pelo aplicativo e marcar uma aula.
+________________
+
+
+15. Segundo exemplo
+Agora imagine um grupo de atletas de Jiu-Jitsu.
+Eles querem treinar no domingo, mas suas academias estão fechadas.
+Um dos atletas abre o FightConnect e encontra uma academia parceira que disponibiliza espaço aos domingos.
+Ele cria um treino:
+Domingo — 10h
+Jiu-Jitsu
+20 vagas
+Os outros atletas encontram o treino no aplicativo e confirmam presença.
+A academia recebe os atletas e o treino acontece.
+________________
+
+
+16. Possíveis funcionalidades futuras
+O projeto poderia evoluir posteriormente para incluir:
+* Campeonatos;
+* Seminários;
+* Workshops;
+* Venda de ingressos para eventos;
+* Loja de equipamentos;
+* Ranking de atletas;
+* Calendário de competições;
+* Busca por parceiros de treino;
+* Vídeos e conteúdos educacionais;
+* Sistema de pagamento dentro da plataforma;
+* Planos de treinamento;
+* Comunidades por modalidade.
+________________
+
+
+17. MVP — Primeira versão
+Para não tornar o primeiro desenvolvimento muito complexo, o projeto inicial poderia ter apenas as funcionalidades essenciais:
+1. Cadastro de usuário
+2. Perfil de professor
+3. Busca por modalidade e localização
+4. Chat entre aluno e professor
+5. Cadastro de academias
+6. Criação de treinos
+7. Participação em treinos
+8. Avaliação dos profissionais
+Com essas funcionalidades já seria possível testar se a ideia realmente resolve o problema identificado.
+________________
+
+
+18. Resumo da proposta
+O FightConnect seria uma plataforma criada para aproximar quem quer treinar de quem pode ensinar.
+O professor ganha visibilidade.
+O aluno encontra profissionais.
+O atleta encontra parceiros de treino.
+A academia ganha novas oportunidades.
+E a comunidade das artes marciais passa a ter um espaço específico para se conectar.
+FightConnect
+"Encontre. Conecte. Treine."
