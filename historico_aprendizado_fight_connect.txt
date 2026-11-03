@@ -1,0 +1,136 @@
+HISTÓRICO DE DESENVOLVIMENTO E APRENDIZADO — FIGHT CONNECT
+(Registro construído ao longo da conversa. Só entra o que aconteceu de fato.)
+
+OBJETIVO DO PROJETO
+A FightConnect é uma proposta de aplicativo que conecta professores, atletas, iniciantes e academias de
+artes marciais. Estamos desenvolvendo a landing page que apresenta essa proposta, com base no protótipo
+(FightConnect_Apresentacao.odp) e no documento FightConnect.txt.
+
+ETAPA 01 — ANÁLISE DO PROTÓTIPO
+O que foi feito: a IA leu o TXT e os 12 slides do ODP, extraiu textos, cores (vinho #3D0006, vermelho
+#990011, dourado #E0A200, claros #F7EDEC/#FCF6F5) e fontes (serifada nos títulos, Calibri no texto), e
+apresentou resumo, estrutura sugerida e tecnologias.
+Minha participação: enviei os arquivos e defini o formato do trabalho (landing page + histórico em TXT +
+explicação final + roteiro de apresentação). Pedi que a análise viesse antes de qualquer código.
+Dúvidas apresentadas: nenhuma até este ponto.
+Explicação técnica: o protótipo não tem fotos, só emojis. Por isso a página usa emojis e cartões de
+exemplo marcados como "exemplo".
+O que aprendi: nesta etapa minha participação foi definir as entregas e o formato do trabalho. Não registrei
+aprendizado técnico específico aqui.
+
+ETAPA 02 — ESTRUTURAÇÃO E CONSTRUÇÃO DA LANDING PAGE
+O que foi feito: a IA criou index.html (estrutura), css/style.css (aparência) e js/script.js (menu do
+celular), seguindo as seções do protótipo.
+Minha participação: pedi que a IA fizesse a página para mim, com explicações do que foi feito. Minhas alterações e decisões
+vêm nas Etapas 03 e 04.
+Dúvidas apresentadas: nenhuma até este ponto.
+Explicação técnica:
+- HTML: <header>, <main>, <section> e <footer> organizam o conteúdo; cada seção tem um id para o menu
+  levar até ela (ex.: href="#solucao").
+- CSS: variáveis (--vinho, --vermelho...) guardam as cores em um só lugar; Grid e Flexbox montam os
+  layouts; @media (max-width:900px e 700px) adapta a página para tablet e celular.
+- JavaScript: o botão ☰ liga e desliga a classe "aberto" do menu.
+Decisões de desenvolvimento: HTML/CSS/JS puros (fácil de explicar e de abrir no navegador); cores e fontes
+do protótipo; textos e exemplos só do que o protótipo prevê; sem preços de planos (o protótipo não define);
+botão "Conheça a proposta" em vez de "Baixar app" (o app ainda não existe).
+Problemas encontrados:
+- Ao abrir o arquivo (index_1.html, na pasta Downloads), a página apareceu sem cores e sem layout (só texto
+  preto no fundo branco). Eu comentei que a página estava feia.
+  Causa: o HTML carrega o CSS e o JS por caminhos relativos (css/style.css e js/script.js). Como o arquivo
+  foi aberto sozinho, fora da pasta do projeto, o navegador não achou esses arquivos.
+  Solução: manter index.html, a pasta css e a pasta js juntos, nessa mesma estrutura. 
+- Na segunda versão da página, o mesmo sintoma apareceu (aberta em Desktop/fightconnect/index.html, sem
+  cores nem layout). Isso indica que o css/style.css ainda não estava no lugar esperado pelo HTML.
+  Depois de conferir a estrutura de pastas (index.html, css/style.css, js/script.js, tudo
+  correto) e seguir os testes sugeridos, consegui abrir a página com o estilo. Minha explicação está na resposta 2 das perguntas de checagem. Não registrei qual teste específico
+  resolveu.
+O que aprendi: o HTML precisa encontrar o CSS e o JS pelas pastas certas (ver minha resposta 2 nas
+perguntas de checagem).
+
+ETAPA 03 — REFORMULAÇÃO DA LANDING PAGE
+O que foi feito: a IA refez index.html, style.css e script.js. A página passou a falar com usuários reais
+(hero com o slogan e botão principal, como funciona, professores, treinos, mapa e avaliações, segurança,
+planos e cadastro) e perdeu as seções de explicação do projeto (problema, MVP, monetização).
+Minha participação: avaliei a primeira versão e disse que estava horrível. Pedi que a landing page fosse
+profissional, como se um usuário real fosse usá-la, e não uma página explicando o projeto.
+Dúvidas apresentadas: nenhuma até este ponto.
+Explicação técnica: uma página que apresenta um projeto fala com o avaliador; uma landing page de produto
+fala com o usuário, mostra o benefício e leva a uma ação (botão e cadastro). Novidades no código: um
+<form> no HTML e um JavaScript que mostra uma mensagem ao enviar (não grava nem envia dados).
+Decisões de desenvolvimento: o slogan virou o título; o botão principal leva ao cadastro de e-mail (isso
+não está no protótipo, é elemento comum de landing page, a confirmar); o celular da seção inicial é
+desenhado em CSS com os dados de exemplo do protótipo.
+Problemas encontrados: a primeira versão interpretou o pedido como uma página de apresentação do projeto,
+e não como a página de um produto.
+O que aprendi: registrei o pedido de uma página de produto e não de apresentação do projeto. Não registrei
+aprendizado técnico específico nesta etapa.
+
+ETAPA 04 — PRIMEIRAS TAREFAS NO CÓDIGO E MUDANÇA PARA TONS DE AZUL
+O que foi feito: a IA propôs uma tarefa pequena (mudar uma cor no CSS). Depois que eu gostei do resultado
+em azul, pedi para mudar o layout inteiro para tons de azul, e a IA reorganizou as cores do CSS.
+Minha participação: abri o style.css no VS Code, mexi na linha das variáveis e testei no navegador. Na
+primeira tentativa troquei o NOME da variável (--vermelho virou --azul) e não o valor. Na segunda troquei
+só o valor (--vermelho:#0066cc) e a página mudou. Decidi manter o dourado na primeira tentativa e, depois,
+decidi que o projeto inteiro deveria ficar em tons de azul, em vez das cores do protótipo.
+Dúvidas apresentadas: "mudei e n mudou nd" (eu achava que nada tinha mudado; na verdade o botão e os
+rótulos tinham perdido a cor por causa do nome trocado).
+Explicação técnica: uma variável CSS tem nome e valor (--vermelho : #990011). O resto do CSS usa
+var(--nome). Se o nome some, o navegador não sabe a cor e deixa o fundo vazio. Se só o valor muda, tudo
+que usa a variável muda junto. Na reorganização, as cores que estavam soltas no código foram para o :root
+com nomes novos (--azul-escuro, --azul, --azul-suave...), assim trocar o tema é mexer só em um lugar.
+Decisões de desenvolvimento: paleta azul (navy no topo/hero/rodapé, azul vivo nos botões, azul claro nas
+seções claras); o dourado ficou só como detalhe (estrelas, faixa de modalidades). Isso se afasta da
+identidade vinho/vermelho do protótipo, por decisão minha.
+Problemas encontrados: nome da variável trocado no lugar do valor (resolvido, ver acima).
+O que aprendi: trocar o valor de uma variável muda tudo o que a usa, e trocar o NOME quebra a cor onde ela
+era usada (ver minhas respostas 3 e 4 nas perguntas de checagem).
+
+PERGUNTAS DE CHECAGEM (respostas escritas por mim, sem edição da IA)
+
+1. HTML, CSS e JavaScript: para que serve cada um neste projeto?
+O HTML é responsável pela estrutura do site, ou seja, organiza os textos, imagens, botões e todas as
+informações que aparecem na página. O CSS cuida da aparência do site, como as cores, tamanhos, fontes e a
+organização dos elementos na tela. Já o JavaScript faz a parte das interações, como abrir o menu no celular
+e mostrar uma mensagem quando alguém preenche o formulário de cadastro.
+
+2. Pastas: por que a página só ficou com estilo quando o index.html ficou junto das pastas css e js?
+Isso aconteceu porque o arquivo HTML precisa encontrar os outros arquivos para carregar o estilo e as
+funcionalidades. Quando eu abri o index.html separado das pastas, ele não conseguiu encontrar o CSS, então
+a página apareceu sem cores e sem a formatação correta. Depois que organizei os arquivos nas pastas certas,
+o navegador conseguiu carregar tudo normalmente. Aprendi que é importante manter a organização dos
+arquivos para o site funcionar corretamente.
+
+3. Variáveis de cor: o que é --azul:#1558d6, e por que trocar esse valor muda vários lugares da página?
+É uma variável do CSS que guarda uma cor. Nesse caso, o código #1558d6 representa um tom de azul. Ela serve
+para facilitar a alteração das cores do site, porque vários elementos utilizam essa mesma variável. Então,
+quando eu mudo o valor dela, todos os lugares que usam essa variável também mudam de cor, sem precisar
+alterar cada um separadamente.
+
+4. O que você mudou ou decidiu no projeto?
+No começo, a página estava mais parecida com uma apresentação de trabalho, explicando o projeto. Eu não
+gostei muito do resultado e pedi para transformar em uma página de produto, como se o FightConnect já
+estivesse sendo apresentado para usuários reais. Também decidi mudar as cores do site. Inicialmente, ele
+utilizava tons de vermelho e vinho, mas achei que o azul combinava mais com a aparência que eu queria.
+Abri o arquivo style.css no VS Code e tentei mudar a cor. Na primeira tentativa, acabei alterando o nome da
+variável em vez do valor, e a mudança não funcionou como eu esperava. Depois entendi o erro, alterei o
+valor corretamente e consegui ver a diferença no navegador. Gostei do resultado e pedi para aplicar os tons
+de azul no restante da página.
+
+5. Uso da IA: o que a IA fez e o que foi você?
+A inteligência artificial me ajudou principalmente na criação dos códigos HTML, CSS e JavaScript e na
+organização da estrutura do site. Ela também explicou como os arquivos funcionavam e me ajudou a entender
+alguns erros que apareceram durante o desenvolvimento. A minha participação foi decidir como eu queria que
+o site ficasse, avaliar os resultados, pedir mudanças e testar a página no navegador. Também fiz alterações
+no arquivo CSS para aprender como funcionavam as variáveis de cores. A IA fez a maior parte da programação,
+mas eu participei das decisões, dos testes e das modificações. Com isso, consegui entender melhor como os
+arquivos se relacionam e como pequenas mudanças no código podem alterar a aparência do site.
+
+PRÓXIMAS ETAPAS (a registrar quando acontecerem)
+Ajustes pedidos por mim, testes em celular/tablet, explicação final e roteiro_apresentacao_fight_connect.txt.
+
+CONCLUSÃO
+Neste ponto do projeto, a IA escreveu a maior parte do código da landing page. Minha participação foi: enviar
+os materiais, definir as entregas, avaliar e pedir mudanças (página de produto, tons de azul), testar no
+navegador, resolver o problema das pastas do CSS e fazer a primeira alteração de cor no style.css, com um erro
+e uma correção. Respondi por escrito às perguntas de checagem 1 a 5. Ainda não respondi sobre o menu com id, as regras
+@media e o botão ☰ (perguntas 6 a 8) e quero continuar estudando.
