@@ -57,4 +57,19 @@ A apresentação completa do projeto está disponível neste repositório: `Figh
 
 ---
 
+   ## 🌐 Landing page
+
+   Landing page do FightConnect feita com HTML, CSS e JavaScript:
+
+   - `index.html`: estrutura e conteúdo da página
+   - `css/style.css`: aparência, cores e responsividade
+   - `js/script.js`: menu do celular e mensagem do formulário de cadastro
+
+   Site: https://fernnandocerva.github.io/projeto-fightconnect/
+
+   ## 📝 Histórico de desenvolvimento
+
+   O arquivo `historico_aprendizado_fight_connect.txt` registra o processo de
+   desenvolvimento da landing page, incluindo minhas dúvidas, decisões e o uso de IA como apoio.
+
 **FightConnect** — *"Encontre. Conecte. Treine."*
